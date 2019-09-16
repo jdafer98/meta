@@ -1,0 +1,38 @@
+
+TEMA 1:
+-------
+
+	Ejercicio_1 : 
+	
+	Los precios varían. Según [este enlace](https://servermall.eu/sets/servers-hp/) podemos estimar que el precio medio de un servidor estandar oscila entre 2000 - 2500 euros. 
+	Sin pérdida de generalidad asumamos 2000 para hacer redondos los cálculos.
+
+	Según [este otro enlace](https://tutobasico.com/calcular-amortizacion/), aplicando la fórmula, el cálculo quedaría:
+
+	Para 4 años: (2000-0)/4 = 500 euros/año
+	Para 7 años: (2000-0)/7 = 285.71 euros/año
+
+	Ejercicio_2 :
+
+	Según [este proveedor](https://www.evidaliahost.com/), un servidor con características tales como CPU: 2 Dual Quad Core Xeon
+	RAM garantizada: 4 GB, RAM compartida: 8 GB, 50 GB Espacio SSD cuesta 8.98 euros/mes. Al año serían 108 euros.
+
+	Para comparar con servicios en la nube, he utilizado la [calculadora de precios de azure](https://azure.microsoft.com/es-es/pricing/calculator/). 
+	En el desplegable he buscado unas prestaciones parecidas a las que me ofrecía el primer proveedor, y apunta a un precio de 0.12$/hora.	
+	Si se usa el 1% del año, se usa 365 dias * 24 h/d * 0.01 = 87.6$. El 10% del tiempo serían 876$
+
+	Ejercicio_3:
+
+	* El modelo de procesador es Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz y la parte más relevante de la salida que está en rojo (las flags).
+	flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe...
+	
+	* En mi máquina virtual no aparece salida por pantalla.
+
+	* En mi raspberry pi 3b+ tampoco aparece salida. Es un procesador con arquitectura ARMv7.
+
+	Ejercicio_4:
+
+	Al usar lscpu: "Virtualization:      VT-x"
+	
+	(Tengo Oracle VirtualBox instalado)
+
