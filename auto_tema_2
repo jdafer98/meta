@@ -1,0 +1,13 @@
+TEMA 2:
+-------
+
+	Ejercicio_1 :
+		Hecho. Aporto [enlace](https://github.com/jdafer98/tdd-gdg) de mi fork del repositorio tdd-gdg. He incluido además un test que comprueba si b es divisor de a.
+
+	Ejercicio_2 : Todavía no tengo código escrito para mi aplicación así que integraré este ejercicio en mi Ejercicio_3.
+
+	Ejercicio_3 : He seguido este [tutorial](https://behave.readthedocs.io/en/latest/tutorial.html) y he corrido el test para python con **Behave** .
+	
+	Ejercicio_4 : He utilizado virtualenv de python, he creado un entrono virtual y he instalado Django en el.
+
+	
